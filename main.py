@@ -116,6 +116,8 @@ def generateRoutesGraf():
 
   elif request.method == 'POST':
     data = request.get_json()
+    print(data["width"])
+    print(data["height"])
     rotas = bfs_todas_rotas(grafo_sem_pesos, data["startPoint"], data["endPoint"])
 
     return jsonify({
