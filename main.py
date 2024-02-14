@@ -151,4 +151,4 @@ def grafo():
   return render_template("graw_Graf_Page.html")
 
 
-app.run(host='0.0.0.0', port=81, debug=True)
+app.run()
