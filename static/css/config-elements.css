@@ -18,7 +18,8 @@
 body {
   background: linear-gradient(154deg, #799FFF 1%, #042CFF 100%);
   min-height: 100vh;
-  overflow: hidden;
+/*   overflow: hidden; */
+  overflow-y: scroll;
 }
 
 button {
