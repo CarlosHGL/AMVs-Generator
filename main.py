@@ -150,5 +150,5 @@ def ferramenta():
 def grafo():
   return render_template("graw_Graf_Page.html")
 
-
-app.run()
+if __name__ == "__main__":
+    app.run()
