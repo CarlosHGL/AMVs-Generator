@@ -1,0 +1,10 @@
+.cache
+.pythonlibs
+.upm
+env
+.breakpoints
+.replit
+poetry.lock
+pyproject.toml
+replit_zip_error_log.txt
+replit.nix
