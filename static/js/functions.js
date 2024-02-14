@@ -176,7 +176,7 @@ export function APIrequest(startPoint, endPoint) {
     headers: {
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify({ startPoint: `${startPoint}`, endPoint: `${endPoint}` }),
+    body: JSON.stringify({ startPoint: `${startPoint}`, endPoint: `${endPoint}`, width:window.innerWidth, height:window.innerHeight }),
   })
     .then(response => {
       if (!response.ok) {
