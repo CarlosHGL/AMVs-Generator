@@ -270,6 +270,9 @@ button#add-aux-bt-2 {
   overflow-y: scroll;
 }
 
+#Map {
+  max-widht: 400px;
+}
 
 /* .cls-1 {
   fill: #00aeef;
