@@ -186,7 +186,6 @@ export function APIrequest(startPoint, endPoint) {
     })
 
     .then(data => {
-      // console.log(data.dados)
       routeSelect(data.dados)
     })
     .catch(error => console.error('Erro:', error))
@@ -256,15 +255,10 @@ export function routeSelect(routeList) {
           }
 
           console.log(`Fora da verificação: ${result}`)
-          // console.log(map.querySelector(`.${value}`))
           var vertice = map.querySelector(`.${value}`)
-          // console.log(vertice)
           vertice.style.fill = "green"
           vertice.style.stroke = "3px solid green", "3px solid green"
           numberList.push(vertice)
-          // console.log(numberList)
-          // console.log(index)
-          // console.log(`Tamanho da lista: ${routeList[selectElement.value].length}`)
         }
       })
     }
@@ -272,7 +266,6 @@ export function routeSelect(routeList) {
 }
 
 function defaultPoints(poinstList) {
-  // console.log(poinstList)
   var fhater = document.querySelector("#Map")
   poinstList.forEach(value => {
     try {
