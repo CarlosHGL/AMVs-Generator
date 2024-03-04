@@ -1,0 +1,19 @@
+{
+  "completed": "2024-02-14T12:37:24.860181Z",
+  "periodic": true,
+  "started": "2024-02-14T12:36:27.484278Z",
+  "versions": [
+    {
+      "filename": "pip-24.0-py3-none-any.whl",
+      "found_date": "2024-02-14T12:36:30.962323Z",
+      "release_date": "2024-02-03T09:53:09.000000Z",
+      "source": "periodic"
+    },
+    {
+      "filename": "pip-23.3.2-py3-none-any.whl",
+      "found_date": "2024-02-14T12:37:02.373703Z",
+      "release_date": "2023-12-17T13:05:02.000000Z",
+      "source": "periodic"
+    }
+  ]
+}

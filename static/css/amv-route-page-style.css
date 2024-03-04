@@ -1,0 +1,281 @@
+  body {
+    height: 100vh;
+  }
+
+  .firts-main-section {
+    display: grid;
+    padding: 15px;
+    grid-template-rows: min-content 100%;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+    width: 100vw;
+  }
+
+  .image-logo-rumo-log {
+    width: 125px;
+  }
+
+  .conteiner-basic-form-login {
+    display: grid;
+    grid-template-columns: min-content;
+    width: 100vw;
+    padding: 0 15px;
+  }
+
+  .exit-button {
+    grid-row: 1;
+    width: min-content;
+    padding: 5px 15px;
+    justify-self: start;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    background-color: #FF6230;
+  }
+
+  .conteiner-image-logo-rumo-log {
+    grid-row: 1;
+    width: min-content;
+    justify-self: center;
+  }
+
+  .conteiner-sections-route-manager {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    grid-template-rows: auto 100%;
+    column-gap: 15px;
+    row-gap: 15px;
+    padding: 15px;
+    /* padding-bottom: 30px; */
+    height: 100%;
+  }
+
+  .label-for-conteiner-machinist-name,
+  .label-for-conteiner-machinist-cs,
+  .label-for-conteiner-aux-name, 
+  .label-for-conteiner-aux-cs {
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+  }
+
+  .label-for-conteiner-aux-name,
+  .label-for-conteiner-aux-cs {
+    display: none;
+  }
+
+  .section-user-data {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+  .conteiner-user-data,
+  .section-selection-route-for-calc {
+    display: grid;
+    grid-template-columns: min-content;
+    grid-template-rows: min-content;
+    row-gap: 10px;
+    padding: 15px;
+  }
+
+  .section-selection-route-for-calc {
+    grid-column: 2;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+  button#add-aux 
+    align-self: center;
+    justify-self: start;
+  }
+
+  .label-for-check {
+    white-space: nowrap;
+  }
+
+  .section-route-after-calc {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: start; 
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-height: 950px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+  .section-route-after-calc-check-list {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    min-width: 328px;
+    width: 100%;
+    max-width: 430px;
+    height: 100%;
+    max-height: 950px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+  .dropbox {
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    background-color: #D9D9D9;
+    width: min-content;
+  }
+
+  .dropbox option,
+  .dropbox::selection,
+  .dropbox:focus {
+    background: #D9D9D9;
+  }
+
+  .label-lateral {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button#start-route {
+    justify-self: center;
+    align-self: center;
+    margin: 10px 0px 0px 0px;
+  }
+
+  .conteiner-machinist-name,
+  .conteiner-machinist-cs,
+  .conteiner-aux-name,
+  .conteiner-aux-cs {
+    margin: 0px 0px 0px 5px;
+  }
+
+  .conteiner-pop-up-add-aux {
+    display: none;
+    grid-row-gap: 10px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+  }
+
+  .conteiner-form-add-aux {
+    display: grid;
+    grid-row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    width: min-content;
+    height: min-content;
+    padding: 20px 35px;
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+
+  .button-exit-to-routes {
+    justify-self: end;
+  }
+
+  button#add-aux-bt-2 {
+    margin-top: 10px;
+  }
+
+
+  .check-list {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    overflow-y: scroll;
+  }
+  .checkable-item {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    max-width: 420px;
+    margin: 5px 5px;
+  }
+
+  .text-element-for-check {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    min-width: 328px;
+    width: 100%;
+    max-width: 425px;
+  }
+
+  .checkbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+  }
+
+  .checked-icon {
+    display: none;
+    max-width: 34px;
+    max-height: 34px;
+  }
+
+  .checked-item-stroke {
+    display: none;
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    max-width: 350px;
+    height: 2px;
+    background: #000000;
+  }
+
+  .choice-route {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #Route-Map {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  /* #Map {
+    max-width: 400px;
+  } */
+  /* .cls-1 {
+    fill: #00aeef;
+  }
+
+  .cls-2 {
+    fill: #ef4136;
+  } */

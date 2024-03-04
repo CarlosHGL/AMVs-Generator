@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #212121;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+body {
+  background: linear-gradient(154deg, #799FFF 1%, #042CFF 100%);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+button {
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  background-color: #3057FF;
+}
+
+input {
+  border-radius: 10px;
+  border: 1px solid #636363;
+  padding: 5px 10px;
+  background-color: #c2c2c2;
+  width: min-content;
+  height: min-content;
+}
+
+.exit-x-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: min-content;
+  height: min-content;
+  padding: 0px;
+  border-radius: 100%;
+  background-color: #ffffff;
+}
+
+.LabelContentOutSide {
+  display: grid;
+  grid-template-rows: min-content min-content;
+  justify-self: start;
+  white-space: nowrap;
+}
